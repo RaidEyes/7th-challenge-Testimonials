@@ -105,6 +105,9 @@
   .one {
     background-color: var(--violet-color);
   }
+.one .profile-img {
+    border: 3px solid hsla(0, 0%, 100%, 0.3);
+  }
 
   .two {
     background-color: var(--gray-color);
@@ -119,6 +122,9 @@
 
   .four {
     background: var(--dark-gray-color);
+  }
+.four .profile-img {
+    border: 3px solid var(--violet-color);
   }
 
   /* Media queries */
