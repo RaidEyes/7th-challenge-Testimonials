@@ -132,8 +132,8 @@
         grid-template-rows: repeat(2, 1fr);      
         padding-inline: 10rem;
         padding-block: 5rem;
-        justify-content: center;
-        
+        place-content: center;
+        height: 100vh;
     }
     .one {
         grid-column: 1 / 3;
